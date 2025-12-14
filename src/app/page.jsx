@@ -42,7 +42,7 @@ const skills = [
       title: 'Netflix Clone',
       description: 'A fully responsive Netflix UI clone built using HTML, CSS, and Vanilla JavaScript. Features smooth carousels, hover effects, category sections, and a pixel-perfect layout with cross-device compatibility.',
       tech: ['HTML5', 'CSS3', 'JavaScript','Responsive Design','UI/UX'],
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop',
+      image: '/images/project1.jpg',
       github: '#',
       live: 'https://hk-netlix.netlify.app/'
     },
@@ -50,7 +50,7 @@ const skills = [
       title: 'Restaurant Website',
       description: 'A modern, multi-page restaurant website built using HTML, CSS, JavaScript, and Bootstrap. Includes smooth animations, a responsive menu gallery, reservation form, and a mobile-first design.',
       tech: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap','Responsive Design','UI/UX'],
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop',
+      image: '/images/project2.png',
       github: '#',
       live: 'https://hk-resturant.netlify.app/'
     },
@@ -58,7 +58,7 @@ const skills = [
       title: 'Coza Store',
       description: 'A static, responsive fashion e-commerce website built using React.js and CSS. Features a product grid layout, category filtering, cart, wishlist functionality, and a clean user interface.',
       tech:  ['HTML5','CSS3','React.js', 'Bootstrap','Responsive Design','UI/UX'],
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop',
+      image: '/images/project3.png',
       github: '#',
       live: 'https://hk-fashionstore.netlify.app/'
     },
@@ -67,7 +67,7 @@ const skills = [
       title: 'Morgan Painting Services',
       description: 'A multi-page, responsive website for a professional painting contractor built using React.js and Bootstrap 5. Includes Home, About, Services pages, and a contact form with a modern, clean design.',
       tech: ['HTML5','CSS3','React.js', 'Bootstrap','Responsive Design','UI/UX'],
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=500&fit=crop',
+      image: '/images/project4.png',
       github: '#',
       live: 'https://morgan-service.netlify.app/'
     },
@@ -75,7 +75,7 @@ const skills = [
       title: 'Blog Hub',
       description: 'A full-stack blogging platform built using the MERN stack (MongoDB, Express, React, Node.js). Features user authentication, create/edit/delete posts, rich text editor, comments, and a responsive user interface.',
       tech: ['React.js','Bootstrap','MongoDB', 'Express.js', 'Node.js','Admin Dashboard','REST APIs','CRUD Operations','JWT'],
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop',
+      image: '/images/project5.png',
       github: '#',
       live: 'https://blog-hub-silk.vercel.app/'
     },
@@ -83,7 +83,7 @@ const skills = [
       title: 'DoctorCare Appointment System',
       description: 'A full-stack doctor appointment management system that allows users to book, manage, and track appointments. Includes user authentication, doctor listings, appointment scheduling, admin management, and a responsive dashboard interface.',
       tech:  ['React.js','Bootstrap','MongoDB', 'Express.js', 'Node.js','Admin Dashboard','REST APIs','CRUD Operations','JWT'],
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop',
+      image: '/images/project6.png',
       github: '#',
       live: 'https://doctorcareapp.vercel.app/'
     },
@@ -91,7 +91,7 @@ const skills = [
       title: 'Bait-Un-Nasr',
       description: 'A full-stack Islamic bank website built using the MERN stack. Features a dynamic contact form with submissions stored in MongoDB and a fully responsive design across all devices.',
       tech: ['React.js','Node.js','Express.js', 'MongoDB',   'REST APIs','Form Handling', 'Responsive Design'],
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop',
+      image: '/images/project7.png',
       github: '#',
       live: 'https://bait-un-nasr.netlify.app/'
     },
@@ -99,7 +99,7 @@ const skills = [
       title: 'Feather White',
       description: 'A full-stack MERN admin dashboard with complete Product CRUD, image upload, category management, JWT-based authentication, and a responsive UI built using Tailwind CSS.',
       tech: ['React.js','Tailwind CSS','MongoDB', 'Express.js', 'Node.js', 'JWT','REST APIs','Admin Dashboard','CRUD Operations'],
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop',
+      image: '/images/project8.png',
       github: '#',
       live: 'https://feather-white.vercel.app/'
     },
@@ -107,7 +107,7 @@ const skills = [
       title: 'Employee Management System',
       description: 'Complete MERN stack CRUD application with an admin dashboard, employee profiles, attendance tracking, salary management, JWT-based authentication, and role-based access control.',
             tech: ['React.js','Tailwind CSS','MongoDB', 'Express.js', 'Node.js', 'JWT','REST APIs','CRUD Operations',  'Role-Based Access Control'],
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=500&fit=crop',
+      image: '/images/project9.png',
       github: '#',
       live: 'https://employee-frontend-beryl-xi.vercel.app/'
     },
