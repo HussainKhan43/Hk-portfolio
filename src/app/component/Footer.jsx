@@ -2,17 +2,17 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Github, Linkedin, Twitter, Mail, Heart, Send, MapPin, Phone, Zap, ArrowUp, Instagram } from 'lucide-react';
+import { Github, Linkedin,  MessageCircle, Mail, Heart, Send, MapPin, Phone, Zap, ArrowUp, Instagram, Code2 } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const [email, setEmail] = useState('');
 
   const socialLinks = [
-    { name: 'GitHub', icon: <Github className="w-5 h-5" />, href: '#', gradient: 'from-purple-500 to-pink-500' },
-    { name: 'LinkedIn', icon: <Linkedin className="w-5 h-5" />, href: '#', gradient: 'from-blue-500 to-cyan-500' },
-    { name: 'Twitter', icon: <Twitter className="w-5 h-5" />, href: '#', gradient: 'from-cyan-400 to-blue-400' },
-    { name: 'Instagram', icon: <Instagram className="w-5 h-5" />, href: '#', gradient: 'from-pink-500 to-rose-500' },
+    { name: 'GitHub', icon: <Github className="w-5 h-5" />, href: 'https://github.com/HussainKhan43', gradient: 'from-purple-500 to-pink-500' },
+    { name: 'LinkedIn', icon: <Linkedin className="w-5 h-5" />, href: 'https://www.linkedin.com/in/hussain-khan-91b260274/', gradient: 'from-blue-500 to-cyan-500' },
+    { name: 'WhatsApp', icon: <MessageCircle className="w-5 h-5" />, href: '#', gradient: 'from-cyan-400 to-blue-400' },
+    { name: 'Instagram', icon: <Instagram className="w-5 h-5" />, href: '#', gradient: 'from-green-500 to-emerald-500' },
   ];
 
   const quickLinks = [
@@ -59,11 +59,11 @@ const Footer = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl blur-xl opacity-60"></div>
                 <div className="relative bg-gradient-to-br from-cyan-500 to-blue-500 p-2.5 rounded-xl">
-                  <Zap className="w-6 h-6 text-white" fill="currentColor" />
+                  <Code2 className="w-6 h-6 text-white" fill="currentColor" />
                 </div>
               </div>
               <h3 className="text-2xl font-black bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
-                DEVFOLIO
+                HKFOLIO
               </h3>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed">
@@ -74,6 +74,7 @@ const Footer = () => {
                 <a
                   key={social.name}
                   href={social.href}
+                      target="_blank"
                   className="group relative p-3 rounded-xl bg-slate-900/50 border border-slate-800 hover:border-cyan-500/50 transition-all duration-300"
                 >
                   <div className={`absolute inset-0 bg-gradient-to-r ${social.gradient} opacity-0 group-hover:opacity-20 rounded-xl transition-opacity duration-300`}></div>

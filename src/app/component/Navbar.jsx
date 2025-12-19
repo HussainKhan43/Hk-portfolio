@@ -47,7 +47,7 @@ const Navbar = () => {
             </div>
             <a href="#home" className="text-2xl font-black tracking-tight">
               <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
-                DEVFOLIO
+                HKFOLIO
               </span>
             </a>
           </div>
